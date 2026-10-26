@@ -18,7 +18,7 @@ if not os.path.exists(MODEL_PATH):
 
 @st.cache_resource
 def load_model():
-    return joblib.load("models\churn_model.joblib")
+       return joblib.load("models/churn_model.joblib")
 
 
 model = load_model()
